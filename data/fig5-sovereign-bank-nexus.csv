@@ -1,0 +1,8 @@
+# Figure 5 - Sovereign-Bank Nexus Amplification
+# Source: IMF GFSR Ch.2 (Apr 2026)
+# 100bp sovereign spread -> 60bp NBFI -> 160bp total amplification
+# Paper II: Institutional Quality as Capital Infrastructure
+component,basis_points,notes
+Sovereign Spread,100,Input shock
+NBFI Premium,60,Amplification via sovereign-bank nexus
+Total Amplification,160,Combined systemic impact

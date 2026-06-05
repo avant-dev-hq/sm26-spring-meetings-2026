@@ -1,0 +1,9 @@
+# Figure 4 - NBFI Yield Premium by Institutional Quality
+# Source: IMF GFSR Ch.2 (Apr 2026) · World Bank Governance Indicators
+# Paper II: Institutional Quality as Capital Infrastructure
+institutional_quality,institutional_quality_score,nbfi_premium_bp
+Weak,1,220
+Below Average,2,175
+Moderate,3,135
+Strong,4,85
+Very Strong,5,30

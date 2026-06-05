@@ -1,0 +1,12 @@
+# Figure 2 - Governance vs. Capital Stability
+# Source: IVA macrofinancial database (2022-2025)
+# r = 0.67 correlation - rule-of-law index vs NBFI stability
+# Paper I & II: Distributed Technology & Institutional Quality
+rule_of_law_index,capital_flight_premium_bp
+0.30,220
+0.40,180
+0.50,145
+0.60,105
+0.70,70
+0.80,40
+0.90,18

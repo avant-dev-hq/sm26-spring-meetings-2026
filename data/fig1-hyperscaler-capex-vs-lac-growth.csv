@@ -1,0 +1,7 @@
+# Figure 1 - Hyperscaler Capex vs. LAC GDP Growth (2023-2025)
+# Source: IMF WEO Apr 2026 · Synergy Research · Avant.Dev estimates
+# Paper I: Distributed Technology & Emerging Market Resilience
+year,hyperscaler_capex_usd_trillions,lac_gdp_growth_pct
+2023,3.0,2.0
+2024,3.2,2.1
+2025,3.4,2.3

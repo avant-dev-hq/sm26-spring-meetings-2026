@@ -1,0 +1,11 @@
+# Figure 6 - Colombia Sovereign Spread - Institutional Reform Impact
+# Source: Banco de la Republica de Colombia · Avant.Dev estimates
+# -110bp spread reduction following institutional reform signals (Apr 2024 - Apr 2026)
+# Paper II: Institutional Quality as Capital Infrastructure
+date,colombia_sovereign_spread_bp,notes
+2024-04-01,320,Pre-reform baseline
+2024-07-01,285,Early reform signals
+2024-10-01,255,Central bank independence confirmed
+2025-01-01,225,Reform consolidation
+2025-04-01,220,Sustained compression
+2026-04-01,210,-110bp from peak · SM26 reference date
