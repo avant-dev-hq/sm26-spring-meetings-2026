@@ -176,32 +176,30 @@ See [`data/fig6-colombia-reform-impact.csv`](data/fig6-colombia-reform-impact.cs
 
 ## Methodology
 
-Data sources: IMF GFSR Ch.2 (Apr 2026); IMF WEO (Apr 2026); World Bank Governance Indicators (2022–25); IVA macrofinancial database; central bank communications (Mexico, Colombia, Brazil). Distributed technology frameworks informed by structured interviews with 15+ fintech leaders and AI governance experts. Artist perspectives on resource sovereignty and community infrastructure integrated throughout.
-
-Analysis conducted under Avant.Dev Policy Intelligence protocols.
+Data sources: IMF GFSR Ch.2 (Apr 2026); IMF WEO (Apr 2026); World Bank Governance Indicators (2022–25); IVA macrofinancial database; central bank communications (Mexico, Colombia, Brazil). Distribution analysis follows the policy intelligence protocols used by Avant.Dev.
 
 ---
 
 ## About Avant.Dev
 
-Avant.Dev is a Contemporary and Modern Art gallery founded in Mexico City, specializing at the intersection of art and technology. The gallery represents emerging artists working in ceramics, textiles, pixel art, and new media — connecting Latin American artistic production with international circuits through exhibitions, institutional partnerships, and collector programs.
+Avant.Dev is a Contemporary and Modern Art gallery founded in Mexico City, specializing at the intersection of art and technology. The gallery represents emerging artists working in ceramics, textiles, installation, and digital media, and develops policy intelligence projects that connect cultural infrastructure with multilateral development themes.
 
-Erick González Aguilar leads the gallery's Policy Intelligence practice, offered as consultancy on cultural matters and innovation — engaging multilateral forums including IMF, World Bank, ITU, OECD, and the United Nations.
+Erick González Aguilar leads the gallery's Policy Intelligence practice, offered as consultancy on cultural matters and innovation — engaging multilateral forums including IMF, World Bank, ITU, OECD, and related institutions.
 
 **Recognition:** Best Startup Mexico City · HackerNoon · Featured in Architectural Digest Latam, Apollo Magazine, Art Plugged.
 
-**Active mandates 2026:** IMF ROC Phase II · UN ITU P2C #7528 (10 countries Americas) · WBG Scorecard Jun 24 · GDAIG Geneva Co-chair Candidate · AI for Good Jul 7–9 · WSIS 2026 · OECD AI Principles LAC.
+**Active mandates 2026:** IMF ROC Phase II · UN ITU P2C #7528 (10 countries Americas) · WBG Scorecard Jun 24 · GDAIG Geneva Co-chair Candidate · AI for Good Jul 7–9 · WSIS 2026 · OECD AI Forum
 
 ---
 
 ## Support This Work
 
-This research is produced by an independent gallery operating at the intersection of art, policy, and technology. If you find this work useful, consider sponsoring our institutional participation and policy intelligence program.
+This research is produced by an independent gallery operating at the intersection of art, policy, and technology. If you find this work useful, consider sponsoring our institutional participation and continued policy research.
 
 → **[Sponsor Avant.Dev on GitHub](https://github.com/sponsors/avant-dev-hq)**
 
 **Payment & Tax**
-Payments processed via Stripe · W-8 certified (non-US entity, Mexico, Jun 2026) · Tax-compliant for international sponsors and institutional transfers. Stripe CLI v1.42.1 — we build on and support Stripe's open-source developer tooling, including [Stripe Projects](https://stripe.com/blog/stripe-projects) for multi-cloud stack provisioning.
+Payments processed via Stripe · W-8 certified (non-US entity, Mexico, Jun 2026) · Tax-compliant for international sponsors and institutional transfers. Stripe CLI v1.42.1 — we build on and support open infrastructure.
 
 ---
 
@@ -219,3 +217,10 @@ González Aguilar, Erick. (2026). SM26 Policy Papers I & II:
 
 *Avant.Dev · Mexico City · [avant.dev](https://avant.dev) · [erick@avant.dev](mailto:erick@avant.dev)*
 *UN ITU P2C #7528 · IMF ROC Phase II · OECD AI Principles · [Sponsor our work](https://github.com/sponsors/avant-dev-hq)*
+
+
+## Docs
+
+- [IMF GFSR Mapping](docs/IMF-GFSR-mapping.md)
+- [Governance FSI Codebook](docs/Governance-FSI-Codebook.md)
+- [ROC Phase II Tracker](docs/ROC-Phase-II-Tracker.md)
