@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document maps each SM26 figure to its IMF source context and explains how the SM26 evidence base can be read alongside IMF surveillance frameworks.
+This document maps each SM26 figure to its IMF source context and explains how the SM26 evidence base aligns with IMF surveillance frameworks.
 
 **Repository:** `avant-dev-hq/sm26-spring-meetings-2026`  
 **Source files:** `data/fig1-hyperscaler-capex-vs-lac-growth.csv` through `data/fig6-colombia-reform-impact.csv`
@@ -13,58 +13,62 @@ This document maps each SM26 figure to its IMF source context and explains how t
 
 | Figure | Data file | IMF document | Chapter / section | Methodology note |
 |---|---|---|---|---|
-| Figure 1 — Hyperscaler Capex vs. LAC GDP Growth | `data/fig1-hyperscaler-capex-vs-lac-growth.csv` | IMF World Economic Outlook (Apr 2026) | Regional outlook for Latin America and the Caribbean | Uses WEO regional growth estimates as the macro backdrop for comparing hyperscaler capex concentration against LAC growth performance. |
-| Figure 2 — Governance vs. Capital Stability | `data/fig2-governance-vs-capital-stability.csv` | IMF Global Financial Stability Report (Apr 2026) | Institutional quality and financial stability discussion | Treats governance quality as a macro-financial explanatory variable and links rule-of-law variation to capital flight premiums. |
-| Figure 3 — Mexico GDP Growth Scenarios | `data/fig3-mexico-growth-scenarios.csv` | IMF World Economic Outlook (Apr 2026) | Mexico country outlook / scenario discussion | Presents a baseline and a governance-reform scenario consistent with IMF-style conditional macroeconomic analysis. |
-| Figure 4 — NBFI Yield Premium by Institutional Quality | `data/fig4-nbfi-yield-premium.csv` | IMF Global Financial Stability Report (Apr 2026) | Nonbank financial institutions / yield spread analysis | Maps institutional quality to NBFI yield premiums and is the strongest candidate for FSI-oriented discussion. |
-| Figure 5 — Sovereign-Bank Nexus Amplification | `data/fig5-sovereign-bank-nexus.csv` | IMF Global Financial Stability Report (Apr 2026) | Cross-sector contagion / sovereign-bank nexus | Shows how a sovereign spread shock transmits through the NBFI channel into larger systemic amplification. |
-| Figure 6 — Colombia Sovereign Spread Impact | `data/fig6-colombia-reform-impact.csv` | Central bank / IMF Article IV-style surveillance context | Sovereign spread and institutional reform signaling | Serves as a time-series policy case showing spread compression associated with governance reform signals. |
+| Figure 1 — Hyperscaler Capex vs. LAC GDP Growth | `data/fig1-hyperscaler-capex-vs-lac-growth.csv` | IMF World Economic Outlook (Apr 2026) | Regional outlook — Latin America and the Caribbean | Uses WEO regional growth estimates as the macro backdrop for comparing hyperscaler capex concentration against LAC growth performance. |
+| Figure 2 — Governance vs. Capital Stability | `data/fig2-governance-vs-capital-stability.csv` | IMF Global Financial Stability Report (Apr 2026) | Chapter 2 — Institutional quality and financial stability | Treats governance quality as a macro-financial explanatory variable and links rule-of-law variation to capital flight premiums (r = 0.67). |
+| Figure 3 — Mexico GDP Growth Scenarios | `data/fig3-mexico-growth-scenarios.csv` | IMF World Economic Outlook (Apr 2026) | Mexico country outlook / conditional scenario | Presents a baseline (1.6%) and a governance-reform scenario (2.2%) consistent with IMF-style conditional macroeconomic analysis. |
+| Figure 4 — NBFI Yield Premium by Institutional Quality | `data/fig4-nbfi-yield-premium.csv` | IMF Global Financial Stability Report (Apr 2026) | Chapter 2 — Nonbank financial institutions / yield spread analysis | Maps institutional quality to NBFI yield premiums. Primary candidate for FSI-oriented engagement. |
+| Figure 5 — Sovereign-Bank Nexus Amplification | `data/fig5-sovereign-bank-nexus.csv` | IMF Global Financial Stability Report (Apr 2026) | Chapter 2 — Cross-sector contagion / sovereign-bank nexus | Quantifies how a 100bp sovereign spread shock transmits through the NBFI channel into 160bp total amplification. |
+| Figure 6 — Colombia Sovereign Spread Impact | `data/fig6-colombia-reform-impact.csv` | Central Bank of Colombia / IMF Article IV surveillance context | Sovereign spread and institutional reform signaling (Apr 2024 – Apr 2026) | Time-series case showing −110bp spread compression associated with governance reform signals. |
 
 ---
 
 ## FSI Framework Alignment
 
-The SM26 repo should be read primarily through the following IMF Financial Soundness Indicator lens:
+SM26 evidence aligns most directly with the following IMF Financial Soundness Indicator priorities:
 
-1. **NBFI stability indicators**
-   - Primary evidence: Figure 4 and Figure 5
-   - Why it matters: these figures quantify the nonbank channel and the associated yield premium under different institutional environments
+### Priority 1 — NBFI Stability Indicators (FSI Group 7, Other Financial Institutions)
+- **Primary evidence:** Figures 4 and 5
+- **Why it matters:** These figures quantify the nonbank channel and the associated yield premium under different institutional quality environments. The $4T nonbank portfolio inflows to emerging markets (IMF GFSR Ch.2 Apr 2026) is the macro anchor.
 
-2. **Sovereign risk transmission**
-   - Primary evidence: Figure 5 and Figure 6
-   - Why it matters: the repo shows how sovereign stress can amplify through related financial channels
+### Priority 2 — Sovereign Risk Transmission
+- **Primary evidence:** Figures 5 and 6
+- **Why it matters:** The repo shows how sovereign stress amplifies through related financial channels (100bp → 160bp) and how reform signals compress that spread over time (Colombia −110bp, 2024–2026).
 
-3. **Governance as a macro-financial variable**
-   - Primary evidence: Figure 2
-   - Why it matters: institutional quality is used as an explanatory input rather than as background context only
+### Priority 3 — Governance as a Macro-Financial Variable (cross-cutting)
+- **Primary evidence:** Figure 2
+- **Why it matters:** Institutional quality is used as an explanatory input, not background context. The r = 0.67 correlation between rule-of-law and NBFI stability is the methodological contribution. 1pp improvement in rule-of-law yields −60bp in capital flight premium.
+
+**Not mapped:** Capital adequacy ratios, asset quality, bank-level liquidity indicators. The dataset does not support those mappings and no spurious mapping is introduced here.
 
 ---
 
 ## Article IV / Surveillance Use Cases
 
-The figures can be used as policy counterfactuals or supporting evidence in IMF-style surveillance work:
-
-- **Figure 2**: supports a governance-to-stability hypothesis for cross-country surveillance
-- **Figure 3**: supports conditional growth scenarios for Mexico-style policy discussion
-- **Figure 6**: supports a sovereign spread case study for Colombia-like reform signaling
+| Figure | Surveillance use case |
+|---|---|
+| Figure 2 | Governance-to-stability hypothesis for cross-country comparative surveillance |
+| Figure 3 | Conditional growth scenario for Mexico institutional reform policy discussion |
+| Figure 6 | Sovereign spread case study — Colombia governance reform pathway (2024–2026) |
 
 ---
 
-## Notes on Evidence Handling
+## Predictive Alignment Note
 
-- The CSV files in `data/` are the source of truth.
-- This mapping document does not restate or normalize the raw data.
-- The purpose is traceability: figure → source → IMF-relevant framing.
+SM26 was published April 2026. Between May and June 2026, the US export control episode affecting frontier AI access demonstrated the exact hyperscaler-dependency vulnerability quantified in Paper I. The NBFI fragility mechanism described in Paper II — whereby institutional quality determines the speed and scale of capital flight — reflects dynamics visible in real-time emerging market stress events in the same window.
+
+This alignment is noted here for context, not as a claim of causation. The research predated these events.
 
 ---
 
 ## Repository Context
 
-This repository is a policy research artifact rather than a code project. Its value comes from:
-- reproducible tabular evidence in `data/`
-- citation support in `CITATION.md`
-- the long-form policy framing in `README.md`
+This repository is a policy research artifact. Its value comes from:
+- Reproducible tabular evidence in `data/`
+- Citation support in `CITATION.md`
+- Long-form policy framing in `README.md`
+- This mapping document as the institutional traceability layer
 
 ---
 
-*Document prepared for SM26 Geneva / multilateral briefing use.*
+*Avant.Dev Policy Intelligence · erick@avant.dev · [avant.dev](https://avant.dev)*  
+*UN ITU P2C #7528 · IMF ROC Phase II · GDAIG Geneva Jul 2026*
